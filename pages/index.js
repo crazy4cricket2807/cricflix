@@ -1,1 +1,4 @@
-export default () => <div>Welcome to next js</div>;
+import Hero from "../components/Hero/Hero";
+export default function () {
+  return <Hero />;
+}
