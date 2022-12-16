@@ -1,4 +1,14 @@
-import Hero from "../components/Hero/Hero";
+import HeroCarousel from "../components/Hero/HeroCarousel";
+
 export default function () {
-  return <Hero />;
+  return (
+    <HeroCarousel
+      showArrows={false}
+      showIndicators={false}
+      showStatus={false}
+      infiniteLoop
+      interval={1000}
+      autoPlay
+    />
+  );
 }
